@@ -1,0 +1,6 @@
+small_cnn2_hybrid_lowlr4 - lower learning rate, 58% accuracy
+nn_low_lr1 - 6 256 node dense 3e-5 lr, too low lr, model not large enough?
+nn_low_lr1 - 8 1024 node dense 9e-5 lr, did not greaatly improve from smaller model
+hybrid_low_lr1 - conv conv pool batch 3x, 5 128 node dense, 3e-5 lr, good needed more epochs
+hybrid_low_lr2 - conv conv pool batch 3x, 5 128 node dense, 100 vs 64 filters, 5e-5 lr, 15 epochs, very good
+hybrid_low_lr2_2 - continued training for previous model 
